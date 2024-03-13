@@ -3,9 +3,10 @@ reversed number is same as entered number it is called palindrome).*/
 
 
 #include <stdio.h>
-int main() {
+int main()
+{
   int n, rev = 0, rem, temp;
-    printf("Enter an integer: ");
+    printf("Enter the number : ");
     scanf("%d", &n);
     temp = n;
 
@@ -19,11 +20,11 @@ int main() {
     
     if (temp == rev)
 	{
-        printf("%d is a palindrome.", temp);
+        printf("%d is a palindrome.\n", temp);
     }
 	else
 	{
-        printf("%d is not a palindrome.", temp);
+        printf("%d is not a palindrome.\n", temp);
     }
     return 0;
 }
